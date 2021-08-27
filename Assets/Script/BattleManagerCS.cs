@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class NewBehaviourScript : MonoBehaviour
+//戦いを管理
+public class BattleManagerCS : MonoBehaviour
 {
-    // Start is called before the first frame updatetest2fesf
+    // Start is called before the first frame update
     void Start()
     {
-        //testdevelop
+        
     }
 
     // Update is called once per frame
