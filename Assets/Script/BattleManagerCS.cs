@@ -16,4 +16,17 @@ public class BattleManagerCS : MonoBehaviour
         player.Attack(enemy);
         enemy.Attack(player);
     }
+
+    //PlayerがEnemyに攻撃する
+    public void OnattackButton()
+    {
+        player.Attack(enemy);   
+        EnemyTurn();
+    }
+
+    void EnemyTurn()
+    {
+        enemy.Attack(player);
+    }
+
 }
