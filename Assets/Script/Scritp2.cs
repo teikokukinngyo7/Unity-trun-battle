@@ -10,7 +10,7 @@ public class Scritp2 : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // Update is called once per frametest
     void Update()
     {
         
