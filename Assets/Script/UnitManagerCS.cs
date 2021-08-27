@@ -19,5 +19,11 @@ public class UnitManagerCS : MonoBehaviour
     {
         hp -= damage;
         Debug.Log(name+"は"+damage+"ダメージをうけた");
+        if (hp <= 0 )
+        {
+            hp = 0;
+            Debug.Log(name+"は戦闘不能");
+
+        }
     }
 }
