@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame updatetest
+    // Start is called before the first frame updatetest2fesf
     void Start()
     {
         //testdevelop
